@@ -9,7 +9,7 @@ const Card = (props) => {
             <div className="card">
 
                 <img src={props.img} alt="" />
-                <h1>{props.user},{props.age}</h1>
+                <h1>{props.user}, {props.age}</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem.</p>
                 <button>View profile</button>
 
