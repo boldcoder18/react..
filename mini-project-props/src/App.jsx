@@ -134,22 +134,17 @@ function App() {
       {jobOpenings.map(function (elem, idx) {
 
 
-        return
+        return (
 
-        <Card Logo={elem.brandLogo} company={elem.name} postDate={elem.dataPosted}
-          role={elem.role} jobtime={elem.tag1} jobrole={elem.tag2} money={elem.pay}
-          location={elem.location} />
-
-
-
-
-
+          <Card Logo={elem.brandLogo} company={elem.name} postDate={elem.dataPosted}
+            role={elem.role} jobtime={elem.tag1} jobrole={elem.tag2} money={elem.pay}
+            location={elem.location} />
+        )
       })}
 
 
+
     </div>
-
-
 
   )
 }
